@@ -14,3 +14,6 @@ git config --global user.name "Nidibel"
 git config --global user.email "nidibelh@gmail.com"
 
 
+#Agregar credenciales antes del Push
+credentials::set_github_pat("pegar_token")
+
