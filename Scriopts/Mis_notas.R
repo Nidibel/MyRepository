@@ -10,8 +10,8 @@ file.create(here::here("Scriopts/", "script_primero.R"))
 
 #En la terminal para agregar dato de usiario de 
 git config --list
-git config --global user.name "Nidibel"
-git config --global user.email "nidibelh@gmail.com"
+git config --global user.name "user_git"
+git config --global user.email "user_mail"
 
 
 #Agregar credenciales antes del Push
