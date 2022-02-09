@@ -17,3 +17,15 @@ git config --global user.email "user_mail"
 #Agregar credenciales antes del Push
 credentials::set_github_pat("pegar_token")
 
+
+# Formas para generar los TOKEN de GitHub
+usethis::create_github_token()
+
+#FORMAS DE AUTORIZAR EL TOKEN EN LA SESION DE R
+gitcreds::gitcreds_set() # Elegir la opcion que se requiera
+
+
+dir.create(here::here("Scripts"), showWarnings = FALSE)
+dir.create(here::here("images"), showWarnings = FALSE)
+dir.create(here::here("librerias"), showWarnings = FALSE)
+
