@@ -29,3 +29,14 @@ dir.create(here::here("Scripts"), showWarnings = FALSE)
 dir.create(here::here("images"), showWarnings = FALSE)
 dir.create(here::here("librerias"), showWarnings = FALSE)
 
+file.create(here::here("Scripts/", "script_primero.R"))
+file.create(here::here("images/", "script_primero.R"))
+file.create(here::here("librerias/", "script_primero.R"))
+
+
+#Para trabajar en otra de las ramas
+#Commint
+#Parte superior izquierda seleccionar alguna de las ramas (diferente de la de main)
+# hacer pull, commit, push de forma normal
+library(ggplot2)
+
