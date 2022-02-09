@@ -40,3 +40,6 @@ file.create(here::here("librerias/", "script_primero.R"))
 # hacer pull, commit, push de forma normal
 library(ggplot2)
 
+#otra prueba de rama
+# a ver si funciona
+
